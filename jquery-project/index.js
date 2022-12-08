@@ -1,22 +1,16 @@
 
-$(document).ready( () => {
+$(document).ready(() => {
 
-$('#even').on('click', () => {
+    $('#even').on('click', () => {
 
-    $('.even-rows').toggleClass('even-highlight')
+        $('.even-rows').toggleClass('even-highlight')
 
-})
+    })
 
-$('#odd').on('click', () => {
+    $('#odd').on('click', () => {
 
-    $('.odd-rows').toggleClass('odd-highlight')
+        $('.odd-rows').toggleClass('odd-highlight')
 
-})
-
-
-
-
-
-
+    })
 
 })
